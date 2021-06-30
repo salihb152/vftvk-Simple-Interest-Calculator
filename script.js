@@ -7,6 +7,7 @@ function compute() {
   var year = new Date().getFullYear() + parseInt(years);
   if(principal<=0){
     alert("Enter a positive number")
+    document.getElementById("principal").focus();
   }else {
   document.getElementById("result1").innerText = "If you deposit "
   document.getElementById("result2").innerText = principal+","
