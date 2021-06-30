@@ -1,4 +1,56 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+  background-color: black;
+  font-family: arial;
+  color: white;
+}
 
+h1 {
+  color: grey;
+  font-family: verdana
+}
 
+.maindiv {
+  margin: auto;
+  width: 50%;
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 448px;
+}
+
+.top {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-top: 30px;
+}
+
+.bottom {
+  margin: auto;
+  text-indent: 340px;
+  width: 80%;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+#result2{
+  background-color:yellow;
+}
+#result4{
+  background-color:yellow;
+}
+#result6{
+  background-color:yellow;
+}
+#result8{
+  background-color:yellow;
+}

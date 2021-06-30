@@ -1,16 +1,63 @@
+<!DOCTYPE html>
 <html>
-    <head>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Simple Interest Calculator</h1>
 
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
+<head>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-        <button onclick="compute()">Compute</button>
-    </body>
+<body>
+  <div class="top">
+    <h1>Simple Interest Calculator</h1>
+  </div>
+  <div class="maindiv">
+    Amount &emsp;&emsp;&emsp;&emsp;<input type="number" id="principal"><br><br>
+
+    Interest Rate &emsp;&nbsp;&nbsp; <input type="range" onchange="updateRate()" id="rate" min="1" max="20" value="10.25" step="0.25">
+
+    <span id="rate_val">
+      10.25%
+    </span><br><br>
+
+    No. of Years &emsp;&nbsp;&nbsp;&nbsp; <select id="years">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select><br><br>
+    <button onclick="compute()">Compute Interest</button><br><br>
+    <span id="result1">
+    </span>
+    <span id="result2">
+    </span><br>
+    <span id="result3">
+    </span>
+    <span id="result4">
+    </span><br>
+    <span id="result5">
+    </span>
+    <span id="result6">
+    </span><br>
+    <span id="result7">
+    </span>
+    <span id="result8">
+    </span><br>
+
+  </div>
+  <div class="bottom">
+    <footer>
+
+      &#169; This Calculator belongs to Salih Biçer
+
+
+    </footer>
+  </div>
+</body>
+
 </html>
